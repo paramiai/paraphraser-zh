@@ -6,8 +6,15 @@ This paraphraser is powered by a round-trip translation. ZH-EN and EN-ZH machine
 
 ## Requirements
 
+
 ## Quickstart
+```
+$ python app.py
+```
 
 http://localhost:8000/?lang=zh&text=blablabla
 
+
 ## Examples
+
+{'lang':lang, 'original': sent, 'paraphrased': result}
