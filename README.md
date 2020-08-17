@@ -36,25 +36,28 @@ http://localhost:8000/?lang=xx&text=blablabla
 
 * http:// localhost :8000/?lang=zh&text=上個月你有沒有去小明的生日派對?
 
-``` {"lang":"zh","original":"上個月你有沒有去小明的生日派對?","paraphrased":"上個月你去小明的生日聚會了嗎?"}```
+  * {"lang":"zh","original":"上個月你有沒有去小明的生日派對?","paraphrased":"上個月你去小明的生日聚會了嗎?"}
+
 
 
 * http:// localhost :8000/?lang=zh&text=我們這些東西可以在必要時扔掉。
 
-> {"lang":"zh","original":"我們這些東西可以在必要時扔掉。","paraphrased":"我們可以在必要時把這些東西扔掉。"}
+  * {"lang":"zh","original":"我們這些東西可以在必要時扔掉。","paraphrased":"我們可以在必要時把這些東西扔掉。"}
+
 
 
 * http:// localhost :8000/?lang=zh&text=When I learned that there was a gift for each child, I was delighted.
 
-> {"lang":"en","original":"When I learned that there was a gift for each child, I was delighted.","paraphrased":"i was very happy when i learned that every child had a gift."}
+  * {"lang":"en","original":"When I learned that there was a gift for each child, I was delighted.","paraphrased":"i was very happy when i learned that every child had a gift."}
+
 
 
 * http:// localhost :8000/?lang=en&text=stuffy nose and elevated temperature are signs you may have the flu.
 
-> {"lang":"en","original":"stuffy nose and elevated temperature are signs you may have the flu.","paraphrased":"a stuffy nose and high temperature are signs that you may be infected with flu."}
+  * {"lang":"en","original":"stuffy nose and elevated temperature are signs you may have the flu.","paraphrased":"a stuffy nose and high temperature are signs that you may be infected with flu."}
+
 
 
 * http:// localhost :8000/?lang=fr&text=Le français est une langue indo-européenne de la famille des langues romanes.
 
-> {"Error":"Wrong language input."}
-
+  * {"Error":"Wrong language input."}
