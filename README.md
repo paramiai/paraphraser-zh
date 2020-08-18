@@ -1,15 +1,14 @@
 # Paraphraser-zh
 This project allows users to paraphrase Chinese(ZH) and English(EN) sentences through an API.
 
+</br>
+
 ## Model
 This paraphraser is powered by a round-trip translation. ZH-EN and EN-ZH machine translation models are trained separately using fairseq, with reference to [fairseq's back translation example](https://github.com/pytorch/fairseq/tree/master/examples/backtranslation), with [WMT English-Chinese(EN-ZH) translation dataset](http://data.statmt.org/wmt18/translation-task/preprocessed/zh-en/). The models are then used to paraphrase a sentence by translating it to an intermediate language and back.
 
-Download:
+Download models [here](https://drive.google.com/drive/folders/1KWVRWsB9C72213eRbrVR_o97Oo0s2evh).
 
-- ZH-EN model: [link]
-
-- EN-ZH model: [link]
-
+</br>
 
 ## Requirements
 - python 3.x
@@ -18,6 +17,7 @@ Download:
 
 ...
 
+</br>
 
 ## Quickstart
 1. Download all the files and models.
@@ -31,6 +31,7 @@ http://localhost:8000/?lang=xx&text=blablabla
 * Replace *xx* with the language you want to paraphrase, either **zh** or **en**.
 * Replace *blablabla* with the sentence you want to paraphrase.
 
+</br>
 
 ## Examples
 
