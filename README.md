@@ -25,7 +25,7 @@ Download models [here](https://drive.google.com/drive/folders/1KWVRWsB9C72213eRb
 http://localhost:8000/?lang=xx&text=blablabla
 
 * Replace *localhost* with your local host (e.g. 0.0.0.0)
-* Replace *xx* with the language you want to paraphrase, either **zh** or **en**.
+* Replace *xx* with the language of the sentence that you want to paraphrase, either **zh** or **en**.
 * Replace *blablabla* with the sentence you want to paraphrase.
 
 
