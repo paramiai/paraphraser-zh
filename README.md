@@ -37,7 +37,7 @@ http://localhost:8000/?lang=xx&text=blablabla
 Chinese:
 
 
-* http:// localhost :8000/?lang=zh&text=上個月你有沒有去小明的生日派對?
+* http:// localhost :8000/?lang=ZH&text=上個月你有沒有去小明的生日派對?
 
   * {"lang":"zh","original":"上個月你有沒有去小明的生日派對?","paraphrased":"上個月你去小明的生日聚會了嗎?"}
 
@@ -50,7 +50,7 @@ Chinese:
 English:
 
 
-* http:// localhost :8000/?lang=zh&text=When I learned that there was a gift for each child, I was delighted.
+* http:// localhost :8000/?lang=EN&text=When I learned that there was a gift for each child, I was delighted.
 
   * {"lang":"en","original":"When I learned that there was a gift for each child, I was delighted.","paraphrased":"i was very happy when i learned that every child had a gift."}
 
