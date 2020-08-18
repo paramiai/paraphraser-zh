@@ -112,7 +112,7 @@ def decode_fn_zh2en(x):
 def setup(source_lang,target_lang):
     sys.argv = sys.argv[:1]
     sys.argv.append('--path')
-    sys.argv.append('model/' + source_lang + '2' + target_lang +'_checkpoint.avg10.pt')
+    sys.argv.append('model/checkpoints_' + source_lang + '_' + target_lang +'.pt')
     sys.argv.append('model/')
     sys.argv.append('--beam')
     sys.argv.append('5')
