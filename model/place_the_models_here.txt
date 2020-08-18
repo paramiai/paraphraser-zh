@@ -1,1 +1,2 @@
 Place the models in this folder.
+Download link at https://github.com/paramiai/paraphraser-zh#model.
